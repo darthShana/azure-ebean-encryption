@@ -1,0 +1,5 @@
+entity-packages: com.darthShana.model
+querybean-packages: com.darthShana.model,com.darthShana.encrypt,com.darthShana.rest
+transactional-packages: none
+profile-location: true
+

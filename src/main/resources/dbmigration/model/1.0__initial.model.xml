@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<migration xmlns="http://ebean-orm.github.io/xml/ns/dbmigration">
+    <changeSet type="apply">
+        <createTable pkName="pk_customer" name="customer">
+            <column primaryKey="true" type="bigint" name="id"/>
+            <column notnull="true" type="varchar" name="name"/>
+            <column type="date" name="registered"/>
+            <column notnull="true" type="bigint" name="version"/>
+            <column notnull="true" type="timestamp" name="when_created"/>
+            <column notnull="true" type="timestamp" name="when_modified"/>
+        </createTable>
+    </changeSet>
+</migration>
